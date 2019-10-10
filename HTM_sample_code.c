@@ -19,8 +19,9 @@ int main()
     // 6) then call the add function to add them together
     TBD result = add(TBD)
     
-    // then printf the result to display it
-    printf(TBD);
+    // then printf the math to display it
+    printf("I am adding: TBD with TBD\n");
+    printf("My result is: TBD\n");
     
     // that's it we are done with no errors (hopefully)
     return 0;
