@@ -12,7 +12,7 @@
 // all of the functions;
 
 TBD our_global_variable; // Task 1: define the type for this whole number
-						 //         aka updated the TBD
+                         //         aka updated the TBD
 
 void setup(){
 	// Task 2: set the initial value of our_global_variable
@@ -36,15 +36,15 @@ int main()
     setup(); // initialize variables
     while(1){ // run the loop forever
 	printf("%d\n",our_global_variable); // print out the value
-										// this would be a serial command
-										// on a microcontroller
+                                            // this would be a serial command
+                                            // on a microcontroller
         int return_value = loop(); // capture the return value
                                    // of a helper function
         if (return_value != 0){break;} // have a way to exit
-									   // this is important or the
-									   // online compiler may crash
-									   // on a microcontroller we will
-									   // omit this and let it run forever
+                                       // this is important or the
+                                       // online compiler may crash
+                                       // on a microcontroller we will
+                                       // omit this and let it run forever
     }
     return 0; // main always returns an integer by convention
 }
